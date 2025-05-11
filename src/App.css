@@ -1,0 +1,393 @@
+* {
+    margin: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    color: #211F54;
+    font-size: 18px;
+    
+}
+
+.navDivLeft{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navDivRight{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.bigHead{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    margin-top: 50px;
+}
+h1{
+    color: #211F54;
+    font-size: 70px;
+}
+.leftHead{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 250px;
+}
+.leftHead p {
+    font-size: 20px;
+    color: #6E7191;
+}
+.leftHeadMini{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.servHead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+.servHead h2{
+    font-size: 50px;
+    color: #211F54;
+    font-weight: 700;
+}
+.servHead p{
+    font-size: 21px;
+    color: #6E7191;
+}
+.servCard{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    margin-top: 50px;
+    gap: 50px;
+}
+.btnDiv{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+section{
+    margin-top: 100px;
+}
+.invis{
+    display: none;
+}
+.secondSec{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.secondSec h2{
+    font-size: 48px;
+    color: #211F54;
+}
+.secondSec p{
+    font-size: 20px;
+    color: #6E7191;
+}
+.txtBtn{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+.txtBtn h2{
+    font-size: 48px;
+    color: #211F54;
+}
+.rightAside{
+    width: 40%;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.more{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    background-color: #211F54;
+    color: #fff ;
+    border-radius: 20px;
+}
+.more h2{
+    font-size: 48px;
+}
+.oneP{
+    font-size: 22px !important;
+}
+.more p{
+    color: #fff;
+    font-size: 18px;
+}
+.oneMore{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+.miniOneMore{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    padding: 20px 50px;
+}
+.miniOneMore h2{
+    font-size: 48px;
+    color: #211F54;
+}
+.miniOneMore p{
+    font-size: 24px;
+    color: #6E7191;
+}
+.miniNum h2{
+    font-size: 50px;
+}
+.bigNum{
+    display: flex;
+}
+.Num{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.Num p{
+    margin: 0;
+}
+.miniNum span{
+    font-size: 40px;
+    font-weight: 900;
+}
+.leftaside{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+}
+.numsec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+.leftaside h2{
+    font-size: 48px;
+    color: #211F54;
+}
+.leftaside p{
+    font-size: 18px;
+    color: #6E7191;
+}
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    margin-top: 50px;
+}
+.thr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+    background-color: #F7F9FC;
+}
+.three{
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.four h2{
+    font-size: 48px;
+    color: #211F54;
+}
+.four p {
+    font-size: 22px;
+    color: #6E7191;
+}
+.five h2{
+      font-size: 48px;
+    color: #211F54;
+
+}
+.five p {
+    font-size: 22px;
+    color: #6E7191;
+    margin-bottom: 15px;
+}
+.foot1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.foot1 h3{
+    color: #211F54;
+}
+.foot1 p{
+    font-size: 20px;
+    color: #6E7191;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+
+@media(max-width:350px){
+    .navDivLeft{
+        display: none;
+    }
+    .invis{
+        display: block;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+    .navDivRight{
+        width: 100%;
+        margin-left: 20px;
+    }
+    nav img{
+        width: 50%;
+    }
+    .bigHead{
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+    }
+    .leftHead{
+        width: 100%;
+        margin-top: 0;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .leftHeadMini{
+        width: 100%;
+    }
+    .servCard{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .servHead{
+        text-align: center;
+    }
+    .servHead h2{
+        font-size: 30px;
+        
+    }
+    .servHead p{
+        font-size:20px;
+        
+    }
+    .secondSec{
+        width: 100%;
+    }
+    .secondSec h2{
+        font-size: 30px ;
+    }
+    .secondSec img{
+        width: 100%;
+        margin-left: 30px;
+    }
+    .txtBtn{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 0;
+    }
+    .txtBtn h2{
+        font-size: 30px;
+
+    }
+    .more{
+        flex-direction: column;
+        width: 100%;
+        margin-left: 30px;
+        padding: 10px;
+    }
+    .more img{
+        width: 98%;
+    }
+    .rightAside{
+        width: 100%;
+        padding: 10px ;
+    }
+    .rightAside h2{
+        font-size: 30px;
+    }
+    .oneMore{
+        flex-direction: column;
+    }
+    .miniOneMore{
+        width: 100%;
+        align-items: center;
+        gap: 50px;
+    }
+    .oneMore img{
+        width: 100%;
+    }
+    .numsec{
+        flex-direction: column;
+    }
+    .leftaside{
+        width: 100%;
+    }
+    .numsec img{
+        width: 100%;
+    }
+    .two{
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+    .two img{
+        width: 100%;
+    }
+    .thr{
+        flex-direction: column;
+        padding: 10px;
+        margin-left: 30px;
+        gap: 30px;
+    }
+    .three{
+        width: 100%;
+        padding: 0;
+    }
+    .six img{
+        width: 350px;
+    }
+    footer{
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    
+    
+   
+}

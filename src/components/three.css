@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+
+.big{
+    width: 28%;
+    border-radius: 9px;
+    border: 1px solid grey;
+    
+}
+.big img{
+    width: 100%;
+}
+h3{
+    font-size: 22px;
+}
+p{
+    font-size: 18px;
+    color: #555555;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.price button{
+    padding: 8px 25px;
+    background-color: #3771C8;
+    color: aliceblue;
+    border: none;
+}
+span{
+    font-size: 30px;
+    color: #3771C8;
+}
+@media(max-width:450px){
+    .big{
+        width: 100%;
+        margin: auto;
+    }
+}

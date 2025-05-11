@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+}
+
+@media(max-width:450px){
+button{
+    padding: 5px 10px !important;
+}
+}
