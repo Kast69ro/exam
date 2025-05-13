@@ -4,7 +4,6 @@ import MiniCard from "./components/mini-card";
 import Card from "./components/card";
 import Button from "./components/button";
 import Contact from "./components/contact";
-import Three from "./components/three";
 import Two from "./components/two";
 import logo from "@/assets/IMAGE (10).svg";
 import call from "@/assets/IMAGE (11).svg";
